@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31960bd41c9cb964286d2144a7799618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotatePoints: {x: 0, y: 180, z: 0}
+  _endPoint: {x: 0, y: 180, z: 0}
   _duration: 2
   _repeats: 100
   _loops: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41d0e3420c373749ae668ff519e4482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newScale: {x: 2, y: 2, z: 2}
+  _endPoint: {x: 2, y: 2, z: 2}
   _duration: 2
   _repeats: 100
   _loops: 1
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db45741ed65c2e34d908a02aa65c4e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: {x: 3, y: 3, z: 1}
+  _endPoint: {x: 3, y: 5, z: 1}
   _duration: 2
   _repeats: 100
   _loops: 1
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31960bd41c9cb964286d2144a7799618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotatePoints: {x: 0, y: 180, z: 0}
+  _endPoint: {x: 0, y: 180, z: 0}
   _duration: 2
   _repeats: 1000
   _loops: 0
@@ -963,7 +963,7 @@ Transform:
   m_GameObject: {fileID: 1297250250}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7, y: 1.24, z: 1}
+  m_LocalPosition: {x: -6, y: 1.24, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db45741ed65c2e34d908a02aa65c4e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: {x: -5.7, y: 5, z: 1}
+  _endPoint: {x: -6, y: 5, z: 1}
   _duration: 2
   _repeats: 1000
   _loops: 1
@@ -1110,11 +1110,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cb34a3468dd3394da90a1bead7efe78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 2008049126}
-  _color: {r: 0.990566, g: 0.6545425, b: 0.0046724924, a: 1}
+  _endPoint: {x: 0, y: 0, z: 0}
   _duration: 2
   _repeats: 100
   _loops: 1
+  _renderer: {fileID: 2008049126}
+  _color: {r: 0.990566, g: 0.6545425, b: 0.0046724924, a: 1}
 --- !u!212 &2008049126
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1302,7 +1303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41d0e3420c373749ae668ff519e4482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newScale: {x: 2, y: 2, z: 2}
+  _endPoint: {x: 2, y: 2, z: 2}
   _duration: 2
   _repeats: 1000
   _loops: 1
