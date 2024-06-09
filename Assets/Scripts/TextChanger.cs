@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class TextChanger : MonoBehaviour
 {
-    const string NewText = "Хорошего тебе дня";
-    const string AddingText = " и продуктивной недели.";
-    const string ReplacementText = "Ты лучший!";
+    private const string NewText = "Хорошего тебе дня";
+    private const string AddingText = " и продуктивной недели.";
+    private const string ReplacementText = "Ты лучший!";
 
     [SerializeField] private Text _text;
     [SerializeField] private float _duration;
